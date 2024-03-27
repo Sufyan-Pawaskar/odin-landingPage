@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 ul{
@@ -21,8 +21,8 @@ a{
 .bodyCont{
     width: 100%;
     height: 100%;
-    flex-grow: 2;
-    flex-shrink: 1;
+    /* flex-grow: 1;
+    flex-shrink: 1; */
     display: flex;
     flex-direction: column;
     background-color: aquamarine;
@@ -30,6 +30,7 @@ a{
 .headerCont{
     width: 100%;
     background-color: #1f2937;
+    padding: 1% 0%;
 }
 .header{
     display: flex;
@@ -54,13 +55,137 @@ a{
 }
 #cont1{
     background-color: #1f2937;
+    padding: 4% 0%;
+}
+#cont2,#cont4{
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
 }
 .footerCont{
     width: 100%;
     background-color: #1f2937;
+    display: flex;
+    justify-content: space-around;
 }
 .cont{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.topLeft{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.topRight{
+    max-width: 600px;
+}
+.heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.topPara{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.imgHolder{
+    width: 600px;
+    height: 300px;
+    background: #b0bdd0b5;
+}
+.topSignup{
+    padding: 2% 8%;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 0.8em;
+    color: #F9FAF8;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.infoHeading{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    padding-top: 2%;
+}
+.cardsConts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    padding: 5% 0%;
+}
+.cardImg{
+    width: 150px;
+    height: 150px;
+    border: 4px #3882f6 solid;
+    border-radius: 10px;
+}
+.cardText{
+    width: 150px;
+    text-align: center;
+    color: #9fa0a3;
+}
+.quoteSection{
+    background-color: #E5E7EB;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding: 7% 0%;
+    gap: 20px;
+}
+.quoteSection div{
+    width: 40%;
+}
+.quoteBody{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+.quoteFooter{
+    text-align: right;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 1.3em;
+}
+.callCard{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #3882f6;
+    margin: 4% 0%;
+    padding: 2% 0%;
+    border-radius: 5px;
+}
+.headingText{
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+.subtext{
+    font-size: 1em;
+    font-weight: lighter;
+    color: #E5E7EB;
+}
+.rightCont{
+    width: 100px;
+}
+.Signup{
+    padding: 2% 8%;
+    background-color: transparent;
+    border: 2px  #F9FAF8 solid;
+    border-radius: 4px;
+    color: #F9FAF8;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+.footer{
+    color: #F9FAF8;
+    padding: 3% 0%;
 }
